@@ -72,7 +72,7 @@ http://localhost:5000/login
 
 From there, you can interact with the email sending features.
 
-```markdown
+```
 ## Features:
 
 This Flask email server enables users to send emails through a straightforward web interface. The main page presents the following options:

@@ -73,13 +73,6 @@ http://localhost:5000/login
 From there, you can interact with the email sending features.
 
 ## Features:
-I think this is a very clear and straightforward explanation of the features from a user perspective! It sequentially describes the steps someone using your mail server should follow.
-
-**I think this description is an excellent one to include in your README.md in the "Features" section.** We could perhaps refine the wording a bit to better fit the tone of the rest of the document, but the essential information and usage flow are very well explained.
-
-Here's a slight modification I propose to make it flow even better with the rest of the README.md:
-
-## Features:
 
 This Flask email server enables users to send emails through a straightforward web interface. The main page presents the following options:
 

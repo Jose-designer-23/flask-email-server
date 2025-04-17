@@ -72,16 +72,19 @@ http://localhost:5000/login
 
 From there, you can interact with the email sending features.
 
+```markdown
 ## Features:
 
 This Flask email server enables users to send emails through a straightforward web interface. The main page presents the following options:
 
-1.  **Authorize Application:** This function guides the user to authorize the email account that was previously added as a test user in the Google Cloud account. After clicking "Continue" on the consent screen, a code will be provided, which the user must copy.
+1. Authorize Application: This function guides the user to authorize the email account that was previously added as a test user in the Google Cloud account. After clicking "Continue" on the consent screen, a code will be provided, which the user must copy.
+    * Then click continue and copy the necessary code to authorize your email account.
 
-2.  **Enter Code:** In this section, the user pastes the copied code from the previous step and clicks "Submit." A confirmation message will indicate whether the authentication was successful, confirming that emails can now be sent.
+2. Enter Code: In this section, the user pastes the copied code from the previous step and clicks "Submit." A confirmation message will indicate whether the authentication was successful, confirming that emails can now be sent.
+    * When you paste the code and click submit, it will tell you that the authentication has been successful and that you can now send emails.
 
-3.  **Message Form:** By selecting "Go to Message Form," the user will find fields to input the recipient's email address, the email subject, and the body of the message. Upon completing and submitting the form, a confirmation will appear indicating whether the email was sent successfully.
-
+3. Message Form: By selecting "Go to Message Form," the user will find fields to input the recipient's email address, the email subject, and the body of the message. Upon completing and submitting the form, a confirmation will appear indicating whether the email was sent successfully.
+    * In the recipient field, you will enter the email address of the person you want to send the email to. In the subject field, you will enter the title of the email, and in the body field, you will enter the message you want to send. At the end, it will tell you that the email has been sent.
 
 ## Upcoming Improvements:
 
@@ -94,4 +97,6 @@ MIT License
 ## Author:
 
 Jose-designer-23
+```
+
 

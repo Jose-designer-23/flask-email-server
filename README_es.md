@@ -1,4 +1,4 @@
-```markdown
+``
 # flask-email-server
 
 Este es un servidor de correo electrónico simple desarrollado con Flask y la librería `google-api-python-client` para enviar correos electrónicos utilizando la API de Gmail a través de la autenticación OAuth2.

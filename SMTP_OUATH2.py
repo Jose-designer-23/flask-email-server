@@ -51,13 +51,13 @@ def login():
     session['state'] = state
 
     # Renderizar la plantilla HTML y pasar la URL de autorización
-    return render_template('Login_correo.html', authorization_url=authorization_url)
+    return render_template('login_email.html', authorization_url=authorization_url)
 
 @app.route('/oauth2callback', methods=['GET', 'POST'])
 def oauth2callback():
     if request.method == 'GET':
         # Renderizar el formulario HTML para ingresar el código
-        return render_template('Ingresar_codigo.html')
+        return render_template('enter_code.html')
     elif request.method == 'POST':
         # Obtener el código de autorización ingresado por el usuario
         code = request.form.get('code')
@@ -119,7 +119,7 @@ def formulario():
         return redirect(url_for('enviar_correo', destinatario=destinatario, asunto=asunto, cuerpo=cuerpo))
 
     # Renderizar el formulario HTML
-    return render_template('Formulario_correo.html')
+    return render_template('email_form.html')
 
 
 @app.route('/enviar_correo')
